@@ -21,7 +21,7 @@ public class TxBasicTest {
 
     @Test
     void proxyCheck() {
-        log.info("aop class = 1 {}", basicService.getClass());
+        log.info("aop class = 21 {}", basicService.getClass());
         assertThat(AopUtils.isAopProxy(basicService)).isTrue();
     }
 
